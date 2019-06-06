@@ -11,6 +11,18 @@ Date: May 2019
 - Query Student information by name.
 - Query Student Information by Student ID No.
 
+
+### Usage:
+Compile the `main.cpp` and `student.cpp` files and run the executable program from command line.
+
+On Mac/Linux, direct to the project folder and compile in terminal:
+```bash
+sudo g++ -o run main.cpp student.cpp
+```
+
+Run it by `./run` to start using the program. Instructions are available inside.
+
+
 ### Class Student
 Refer to [`student.h`](student.h) file.
 
