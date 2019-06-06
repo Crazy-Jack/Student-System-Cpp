@@ -1,6 +1,4 @@
 # Student System project
-Author: Zheng Lingwen
-
 Date: May 2019
 
 ### Designed features:
