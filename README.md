@@ -15,7 +15,7 @@ Date: May 2019
 ### Usage:
 Compile the `main.cpp` and `student.cpp` files and run the executable program from command line.
 
-On Mac/Linux, direct to the project folder and compile in terminal:
+On Mac/Linux, direct to the project folder and compile them in terminal:
 ```bash
 sudo g++ -o run main.cpp student.cpp
 ```
