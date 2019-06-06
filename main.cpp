@@ -106,7 +106,8 @@ int main()
       char delimiter = ',';
       // check for delimiter times
       int dtimes = count(studentinfo.begin(), studentinfo.end(), delimiter);
-      if (dtimes != 2) {throw std::invalid_argument("Not enough delimiter");};
+      if (dtimes < 2) {throw std::invalid_argument("Not enough delimiter");};
+      if (dtimes > 2) {throw std::invalid_argument("Too much delimiters");};
       
       // get name
       string name = studentinfo.substr(0, studentinfo.find(delimiter));
