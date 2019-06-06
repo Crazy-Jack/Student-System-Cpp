@@ -13,7 +13,7 @@ Date: May 2019
 - Query Student Information by Student ID No.
 
 ### Class Student
-Refer to [`student.h`]('student.h') file.
+Refer to [`student.h`](student.h) file.
 
 ### Error Handling
 The following input has been handled specifically
