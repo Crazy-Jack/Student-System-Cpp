@@ -74,10 +74,22 @@ int main()
 
   // (1) input student number
   int n;
+  string t;
+  int ok = 0;
+  while (ok == 0)
+  {
     cout << "(1) Input of student number: " ;
-    cin >> n;
+    cin >> t;
     cin.ignore();
-    cout << endl;
+    if (Student::checkValidNumber(t))
+    { 
+      ok = 1; 
+      n = stoi(t);
+    } else 
+    {
+      cout << "Invalid Input, please try again" << endl;
+    };
+  };
 
   // (2) get student info
   cout << "(2) Add student information.";

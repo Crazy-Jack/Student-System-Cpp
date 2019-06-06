@@ -23,7 +23,7 @@ class Student{
     void getInfo();
     void addStudent(string name, string no, float grade);
     static void computeAveGrade(Student S[], int studentnumber);
-    static void queryStudentByName(Student S[], string querystudentname, int studentnumber);
+    static void  queryStudentByName(Student S[], string querystudentname, int studentnumber);
     static void queryStudentByNo(Student S[], string querystudentno, int studentnumber);
     static void sortStudentGrade(Student S[], int studentnumber);
     static string removeSpecial(string m, char special);

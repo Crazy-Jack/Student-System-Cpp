@@ -50,15 +50,17 @@ void Student::queryStudentByName(Student S[], string querystudentname, int stude
   for (int i=0; i < studentnumber; i++){
     if (S[i].getName() == querystudentname){
       S[i].getInfo();
-      found = 1;
-      break;
+      found += 1;
     };
   };
 
   if (found == 0) {
     cout << "Sorry, Student Name: " << querystudentname << " is not found..." << endl;
   };
+
 };
+
+
 void Student::queryStudentByNo(Student S[], string querystudentno, int studentnumber)
 {
   // query Student by Name
@@ -66,14 +68,14 @@ void Student::queryStudentByNo(Student S[], string querystudentno, int studentnu
   for (int i=0; i < studentnumber; i++){
     if (S[i].getNo() == querystudentno){
       S[i].getInfo();
-      found = 1;
-      break;
+      found += 1;
     };
   };
 
   if (found == 0) {
     cout << "Sorry, Student No. " << querystudentno << " is not found..." << endl;
   };
+
 };
 
 
@@ -83,7 +85,7 @@ void Student::sortStudentGrade(Student S[], int studentnumber)
 
   for (int i=0; i < studentnumber; i++){
     // print out the sorted results
-    cout << "  " << S[i].getName() << " (" << S[i].getGrade() << ") " << endl;
+    cout << "  " << S[i].getName() << " (Grade: " << S[i].getGrade() << ", Student No.: " << S[i].getNo() << ") " << endl;
   };
 };
 
