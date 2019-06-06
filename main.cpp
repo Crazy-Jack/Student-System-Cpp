@@ -7,67 +7,67 @@ using namespace std;
 
 int main()
 {
-  string name1 = "Zhang";
-  string name2 = "Z";
-  string no1 = "1234";
-  string no2 = "4321";
-  float grade1 = 33.3;
-  float grade2 = 100;
-  Student s1;
-  Student s2;
-
-  
-  // test for addStudentInfo();
-  //void addStudent(string name, string no, float grade);
-  s1.addStudent(name1, no1, grade1);
-  s2.addStudent(name2, no2, grade2);
-  // test for getInfo()
-  s1.getInfo();
-
-  // test for computeAve():
-  Student Ss[2] = {s1, s2};
-  Student::computeAveGrade(Ss, 2);
-
-  // test for queryName
-  cout << "Test for queryName: " << endl;
-  Student::queryStudentByName(Ss, "Zhang", 2);
-
-  // test for queryNo
-  cout << "Test for queryNo: " << endl;
-  Student::queryStudentByNo(Ss, "4321", 2);
-  Student::queryStudentByNo(Ss, "0004321", 2);
-
-  // test for sorting
-  cout << "Test for sorting: " << endl;
-  Student::sortStudentGrade(Ss, 2);
-
-  // test for removeSpecial
-  cout << "Test for remove specail" << endl;
-  string tttt = "2232e3rd";
-  cout << "Test origin string: " << tttt << endl;
-  cout << "Remove '2' : " << Student::removeSpecial(tttt, '2') << endl;
-  cout << "Remove '3' : " << Student::removeSpecial(tttt, '3') << endl;
-  cout << "Remove 'e' : " << Student::removeSpecial(tttt, 'e') << endl;
-  cout << "Remove 'd' : " << Student::removeSpecial(tttt, 'd') << endl;
-
-
-  // test for checkValidGrade
-  cout << "Test for checkvalidgrade" << endl;
-  cout << "Valid?<20.2>: " << Student::checkValidGrade("20.2") << endl;
-  cout << "Valid?<20.e2>: " << Student::checkValidGrade("20.e2") << endl;
-  cout << "Valid?<20e.2>: " << Student::checkValidGrade("20e.2") << endl;
-  cout << "Valid?<e2>: " << Student::checkValidGrade("e2") << endl;
-  cout << "Valid?<2d>: " << Student::checkValidGrade("2d") << endl;
-  cout << "Valid?<233d2>: " << Student::checkValidGrade("233d2") << endl;
-
-  // test for checkValidNumber
-  cout << "Test for checkValidNumber" << endl;
-  cout << "Valid?<20.3>: " << Student::checkValidNumber("20.3") << endl;
-  cout << "Valid?<20>: " << Student::checkValidNumber("20") << endl;
-  cout << "Valid?<3>: " << Student::checkValidNumber("3") << endl;
-  cout << "Valid?<3ed>: " << Student::checkValidNumber("3ed") << endl;
-  cout << "Valid?<e>: " << Student::checkValidNumber("e") << endl;
-
+//  string name1 = "Zhang";
+//  string name2 = "Z";
+//  string no1 = "1234";
+//  string no2 = "4321";
+//  float grade1 = 33.3;
+//  float grade2 = 100;
+//  Student s1;
+//  Student s2;
+//
+//  
+//  // test for addStudentInfo();
+//  //void addStudent(string name, string no, float grade);
+//  s1.addStudent(name1, no1, grade1);
+//  s2.addStudent(name2, no2, grade2);
+//  // test for getInfo()
+//  s1.getInfo();
+//
+//  // test for computeAve():
+//  Student Ss[2] = {s1, s2};
+//  Student::computeAveGrade(Ss, 2);
+//
+//  // test for queryName
+//  cout << "Test for queryName: " << endl;
+//  Student::queryStudentByName(Ss, "Zhang", 2);
+//
+//  // test for queryNo
+//  cout << "Test for queryNo: " << endl;
+//  Student::queryStudentByNo(Ss, "4321", 2);
+//  Student::queryStudentByNo(Ss, "0004321", 2);
+//
+//  // test for sorting
+//  cout << "Test for sorting: " << endl;
+//  Student::sortStudentGrade(Ss, 2);
+//
+//  // test for removeSpecial
+//  cout << "Test for remove specail" << endl;
+//  string tttt = "2232e3rd";
+//  cout << "Test origin string: " << tttt << endl;
+//  cout << "Remove '2' : " << Student::removeSpecial(tttt, '2') << endl;
+//  cout << "Remove '3' : " << Student::removeSpecial(tttt, '3') << endl;
+//  cout << "Remove 'e' : " << Student::removeSpecial(tttt, 'e') << endl;
+//  cout << "Remove 'd' : " << Student::removeSpecial(tttt, 'd') << endl;
+//
+//
+//  // test for checkValidGrade
+//  cout << "Test for checkvalidgrade" << endl;
+//  cout << "Valid?<20.2>: " << Student::checkValidGrade("20.2") << endl;
+//  cout << "Valid?<20.e2>: " << Student::checkValidGrade("20.e2") << endl;
+//  cout << "Valid?<20e.2>: " << Student::checkValidGrade("20e.2") << endl;
+//  cout << "Valid?<e2>: " << Student::checkValidGrade("e2") << endl;
+//  cout << "Valid?<2d>: " << Student::checkValidGrade("2d") << endl;
+//  cout << "Valid?<233d2>: " << Student::checkValidGrade("233d2") << endl;
+//
+//  // test for checkValidNumber
+//  cout << "Test for checkValidNumber" << endl;
+//  cout << "Valid?<20.3>: " << Student::checkValidNumber("20.3") << endl;
+//  cout << "Valid?<20>: " << Student::checkValidNumber("20") << endl;
+//  cout << "Valid?<3>: " << Student::checkValidNumber("3") << endl;
+//  cout << "Valid?<3ed>: " << Student::checkValidNumber("3ed") << endl;
+//  cout << "Valid?<e>: " << Student::checkValidNumber("e") << endl;
+//
 
 
 
