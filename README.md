@@ -1,4 +1,5 @@
 # Student System project
+Command Line Interface(CLI) for managing student information. A capstone small project for getting familiar with C++.
 Date: May 2019
 
 ### Designed features:
