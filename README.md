@@ -1,5 +1,5 @@
 # Student System project
-Command Line Interface(CLI) for managing student information. A capstone small project for getting familiar with C++.
+Command Line Interface(CLI) for managing student information, A capstone small project for getting familiar with C++.
 Date: May 2019
 
 ### Designed features:
@@ -27,7 +27,7 @@ Run it by `./run` to start using the program. Instructions are available inside.
 Refer to [`student.h`](student.h) file.
 
 ### Error Handling
-The following input has been handled specifically
+The following input has been handled specifically:
 
 * input = "zhengsan, 2019, (Any charater mess up with Grade)"
 * input = "zhangsan, 2019, 93.4.4"
