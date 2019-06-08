@@ -1,5 +1,6 @@
 # Student System project
 Command Line Interface(CLI) for managing student information, a capstone small project for getting familiar with C++.
+
 Date: May 2019
 
 ### Designed features:
@@ -13,14 +14,24 @@ Date: May 2019
 
 
 ### Usage:
-Compile the `main.cpp` and `student.cpp` files and run the executable program from command line.
+#### Compile
+Compile the `main.cpp` and `student.cpp` files from terminal:
 
 On Mac/Linux, direct to the project folder and compile them in terminal:
+
 ```bash
-sudo g++ -o run main.cpp student.cpp
+$ sudo g++ -o run src/main.cpp src/student.cpp
 ```
 
-Run it by `./run` to start using the program. Instructions are available inside.
+On Windows, direct to the project folder and compile them in terminal:
+
+```dos
+> g++ -o run src/main.cpp src/student.cpp
+```
+
+#### Run
+
+On Mac, run it from terminal by `./run` to start using the program. On Windows, start the program by `run.exe`. Instructions are available inside.
 
 
 ### Class Student
