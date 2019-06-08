@@ -17,17 +17,13 @@ Date: May 2019
 #### Compile
 Compile the `main.cpp` and `student.cpp` files from terminal:
 
-On Mac/Linux, direct to the project folder and compile them in terminal:
+On Mac/Linux/Windows, direct to the project folder and compile them in terminal:
 
 ```bash
-$ sudo g++ -o run src/main.cpp src/student.cpp
+$ g++ -o run src/main.cpp src/student.cpp
 ```
 
-On Windows, direct to the project folder and compile them in terminal:
-
-```dos
-> g++ -o run src/main.cpp src/student.cpp
-```
+__Note__: C++ compiler is needed for compiling. Popular C++ compilers are [mingw-w64](http://www.mingw-w64.org) for Windows, [Clang](https://developer.apple.com/xcode/) for XCode for macOS, and [GCC](https://gcc.gnu.org/) on Linux. And also make sure the path in your computer is well configured. Check this [vedio](https://www.youtube.com/watch?v=TOeKtN6Vir4) if you are having trouble with windows configuration.
 
 #### Run
 
