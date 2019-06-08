@@ -1,5 +1,5 @@
 # Student System project
-Command Line Interface(CLI) for managing student information, A capstone small project for getting familiar with C++.
+Command Line Interface(CLI) for managing student information, a capstone small project for getting familiar with C++.
 Date: May 2019
 
 ### Designed features:
@@ -35,6 +35,6 @@ The following input has been handled specifically:
 * input = "zhengsan"
 
 ### Other specific
-* Class Student is implemented through header file and cpp file.
+* Class Student is implemented through [`student.h`](student.h) header file and [`student.cpp`](student.cpp) cpp file.
 * I/O is handled by main.cpp file.
-* Ranking mechanism can be changed by judgeClass member function of Class Student.
+* Ranking mechanism can be changed by judgeClass (a member function of Class Student).
