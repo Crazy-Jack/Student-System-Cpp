@@ -124,7 +124,7 @@ int main()
       S[i].addStudent(name, no, grade);
 
       // Confirmation of adding student info
-      cout << "Your has successfully input student " << i + 1 << endl;
+      cout << "Your has successfully input student " << i + 1  << " : " << endl;
       S[i].getInfo();
 
       // update good Student count
