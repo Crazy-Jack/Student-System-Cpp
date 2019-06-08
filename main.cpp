@@ -92,7 +92,7 @@ int main()
   };
 
   // (2) get student info
-  cout << "(2) Add student information.";
+  cout << "(2) Add student information." << endl;
   string studentinfo;
   Student S[n];
   for (int i=0; i < n; i++) 
