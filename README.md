@@ -23,7 +23,7 @@ On Mac/Linux/Windows, direct to the project folder and compile them in terminal:
 $ g++ -o run src/main.cpp src/student.cpp
 ```
 
-__Note__: C++ compiler is needed for compiling. Popular C++ compilers are [mingw-w64](http://www.mingw-w64.org) for Windows, [Clang](https://developer.apple.com/xcode/) for XCode for macOS, and [GCC](https://gcc.gnu.org/) on Linux. And also make sure the path in your computer is well configured. Check this [vedio](https://www.youtube.com/watch?v=TOeKtN6Vir4) if you are having trouble with windows configuration.
+__Note__: C++ compiler is needed for compiling. Popular C++ compilers are [mingw-w64](http://www.mingw-w64.org) for Windows, [Clang](https://developer.apple.com/xcode/) for XCode for macOS, and [GCC](https://gcc.gnu.org/) on Linux. And also make sure the path in your computer is well configured. Check this [vedio](https://www.youtube.com/watch?v=TOeKtN6Vir4) if you are having trouble with configuration on Windows.
 
 #### Run
 
