@@ -16,8 +16,7 @@ int main()
 //  Student s1;
 //  Student s2;
 //
-//  
-//  // test for addStudentInfo();
+//  //  // test for addStudentInfo();
 //  //void addStudent(string name, string no, float grade);
 //  s1.addStudent(name1, no1, grade1);
 //  s2.addStudent(name2, no2, grade2);
@@ -173,6 +172,17 @@ int main()
   Student::queryStudentByNo(S, queryno, n);
   cout << endl;
 
+
+  // Prevent auttoquit
+  string quit;
+  while (1) {
+    cout << "Press (q) to quit: ";
+    cin >> quit;
+    cin.ignore();
+    if (quit == "q") {
+      break;
+    };
+  };
 };
 
 
